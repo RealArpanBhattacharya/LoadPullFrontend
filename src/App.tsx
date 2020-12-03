@@ -68,7 +68,7 @@ function App() {
     });
           
     const _response = await instance.get('http://ec2-54-210-88-129.compute-1.amazonaws.com/getCurrentAndVoltageValues', {
-      headers: { 'content-type': 'application/json', "Access-Control-Allow-Origin": "*" ,  "Access-Control-Allow-Headers": "Content-Type", 'Origin': 'https://https://main.d2nqlqeo8aar14.amplifyapp.com/'},
+      headers: { 'content-type': 'application/json', "Access-Control-Allow-Origin": "*" ,  "Access-Control-Allow-Headers": "Content-Type", 'Origin': 'https://main.d2nqlqeo8aar14.amplifyapp.com/'},
       params: {
         "Param1": coax,
         "Param2": freq,
